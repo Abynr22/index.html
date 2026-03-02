@@ -3,18 +3,12 @@
 /*===================================================*/
 
 *,
-html {
+html, body {
 margin: 0px ;
 padding: 0px;
+box-sizing: border-box;
 }
 
-
-.box {
-  background-color: rgb(216, 210, 210);
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-}
 
 .Navigation-bar-container {
 background: linear-gradient(-45deg, #1e3c72, #2a5298, #4ca1af, #1e3c72);

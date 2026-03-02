@@ -1,7 +1,7 @@
 *,
 html{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 @media screen and ( max-width: 768px){
@@ -10,12 +10,13 @@ html{
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(-45deg, #3a6ed0, #86a3d5, #62c2d1, #274d94);
-    background-size: 400% 400%;
+    background-size: 100% 100%;
     animation: gradient1 6s ease infinite;
     padding: 10px 20px;
     border-bottom: 1px solid black;
     height: 15vh;
-    width: 101.5vh;
+    margin: 0;
+    width: 100%;
     position: sticky;
     top: 0;
     z-index: 100;   
@@ -133,10 +134,10 @@ border-radius: 2px;
 
 .Navigation-bar-container {
 background: linear-gradient(-45deg, #1e3c72, #2a5298, #4ca1af, #1e3c72);
-background-size: 400% 400%;
+background-size: 100% 100%;
 animation: gradientBG 6s ease infinite;
 padding: 5px;
-min-width: 104.7vh;
+min-width: 100%;
 height: 20vh ;
 border-bottom: 1px solid black;
 }
@@ -164,14 +165,14 @@ font-family: "Bebas Neue", sans-serif;
 
 .Isi {
     margin: 0;
-    width:155.5%;
+    width:100%;
     height: 60vh;
     
 }
 
 .container-img {
 min-height: 50vh;
-min-width: 90vh;
+min-width: 100%vh;
 background-color: black;
 display: flex;
 justify-content: center;
@@ -197,7 +198,7 @@ position: relative;
 
 .container-foot{
 min-height: 25vh;
-min-width: 105.8vh;
+min-width: 100%;
 background:linear-gradient(-45deg, #4a5b79, #2a5298, #4ca1af, #1e3c72);
 
 }
