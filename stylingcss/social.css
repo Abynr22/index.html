@@ -1,0 +1,53 @@
+*,
+html {
+     margin: 0px;
+     padding: 0px;
+}
+
+
+
+.container-social{
+height: 40vh;
+width: 50vh;
+ background: rgba(142, 139, 235, 0.37);
+ margin: 100px auto;
+ padding: 40px;
+ border-radius: 15px;
+ text-align: center;
+ border: 3px solid white;
+ box-shadow: 8px 8px 15px rgba(0,0,0,0.7);
+}
+
+.font-social{
+    font-size: 35px;
+    color: whitesmoke;
+    font-style:italic;
+    text-shadow:8px 8px 15px rgba(0,0,0,0.7); ;
+}
+
+.font-sc2{
+font-size: 25px;
+
+}
+
+.icon-ig {
+width: 65%;
+height: 75%;
+margin: 15px auto;
+}
+
+.icon-yt{
+    width: 100%;
+    height: 100%;
+margin: -25px auto;
+}
+
+.icon-fb{
+    width: 70%;
+    height: 80% ;
+    margin: 10px ;
+}
+
+.pesan{
+    text-align:center;
+}

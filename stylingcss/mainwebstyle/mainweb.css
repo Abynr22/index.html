@@ -1,0 +1,139 @@
+/*===================================================*/
+/*================BAGIAN WEB HOME====================*/
+/*===================================================*/
+
+*,
+html {
+margin: 0px ;
+padding: 0px;
+}
+
+
+.box {
+  background-color: rgb(216, 210, 210);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.Navigation-bar-container {
+background: linear-gradient(-45deg, #1e3c72, #2a5298, #4ca1af, #1e3c72);
+background-size: 400% 400%;
+animation: gradientBG 6s ease infinite;
+padding: 5px;
+min-width: 90%;
+min-height: 10vh ;
+border-bottom: 1px solid black;
+}
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 75% 100%; }
+    75% { background-position: 75% 50%; }
+    100% { background-position: 0% 100%; }
+}
+
+
+.a-navbar i {
+    margin-right: 10px;
+}
+
+
+.a-navbar {
+    position: relative;
+    text-decoration: none;
+    color: white;
+}
+
+.a-navbar::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 50%;
+    bottom: -5px;
+    background-color: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.a-navbar:hover::after {
+    width: 100%;
+}
+
+.a-navbar.active::after {
+    width: 100%;
+}
+
+.ul-Navigation-bar {
+display: flex;
+min-height: 100px ;
+justify-content: center;
+align-items: center;
+}
+
+.li-Navigation-bar {
+list-style-type: none;
+padding: 20px ;
+margin: 20px;
+color: white;
+font-size: 40px;
+font-family: "Bebas Neue", sans-serif;
+}
+
+.li-Navigation-bar:hover {
+background-color: rgba(140, 135, 193, 0.689);
+transition: .2S ease-in-out;
+transition-delay: .3S;
+border-radius: 8px;
+}
+
+
+.Isi {
+    margin: 0;
+    width: 100%;
+    min-height: 50vh;
+    
+}
+
+.container-img {
+min-height: 50vh;
+min-width: 100%;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    animation: gradientTxt 8s ease-in-out;
+}
+@keyframes gradientTxt {
+   0% { opacity: 1; }
+   50% { opacity: 0; }
+   100% { opacity: 1; }
+}
+
+.container-foot{
+min-height: 15vh;
+min-width: 100%;
+background:linear-gradient(-45deg, #4a5b79, #2a5298, #4ca1af, #1e3c72);
+
+}
+
+.Isi-footer{
+font-size: 50px;
+
+color: whitesmoke ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+

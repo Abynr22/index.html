@@ -1,0 +1,47 @@
+*,
+html {
+margin: 0px ;
+padding: 0px;
+}
+
+/*===================================================*/
+/*================BAGIAN CONTACT-ME==================*/
+/*===================================================*/
+
+
+.Container-hubungi {
+    height: 40vh;
+    width: 50vh;
+    background: rgba(142, 139, 235, 0.37);
+    margin: 100px auto;   /* bikin ke tengah */
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    border: 3px solid white;
+    box-shadow: 8px 8px 15px rgba(0,0,0,0.7);
+}
+
+
+.Isi-Hubungi-saya {
+margin-right: 8px;
+color: rgb(0, 0, 0);
+font-size: 20px;
+}
+
+.whatsapp {
+    height: 70%;
+    width: 60%;
+margin: 40px auto;
+}
+
+.gmaillogo {
+    height: 80%;
+    width: 90%;
+margin: 25px auto;
+}
+.emailcontact {
+    
+   margin-top: 15px 0 0 0;
+    display: block;
+    text-align: center;
+}
