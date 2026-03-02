@@ -14,8 +14,8 @@ html{
     animation: gradient1 6s ease infinite;
     padding: 10px 20px;
     border-bottom: 1px solid black;
-    height: 60px;
-    width: 100vh;
+    height: 15vh;
+    width: 101.5vh;
     position: sticky;
     top: 0;
     z-index: 100;   
@@ -24,6 +24,95 @@ html{
     0% { background-position: 0% 50%; }
     50% { background-position: 50% 100%; }
     100% { background-position: 0% 100%; }
+}
+
+.header-kiri{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    flex-shrink: 0;
+}
+ 
+/*iconnya III disini*/
+.icon-menu{
+color: rgb(217, 224, 230);
+padding:5px 10px;
+font-size: 40px ;
+cursor: pointer;
+border-radius: 2px;
+}
+
+/*icon saat diklik*/
+.icon-menu:hover {
+    background-color: rgba(240, 248, 255, 0.341);
+}
+
+/*jarak antara item kiri*/
+.logo-section{
+    display:flex;
+    flex-direction:column;
+    line-height: 1.1;
+    cursor: pointer;
+}
+/*style untuk bagian logotext aby*/
+.logo-text{
+    font-family:"Bebas Neue", sans-serif ;
+    font-size: 45px;
+    letter-spacing:1px;
+    font-weight: normal;
+    color: rgb(196, 42, 42);
+}
+/*style teks di bawah aby*/
+.logo-subtext{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+
+}
+        /* Styling Form Pencarian */
+.header-tengah{
+    flex-grow:1;
+    display:flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 30px;
+}
+
+.search-form{
+    display: flex;
+    width: 100%;
+    border:1px solid rgb(18, 29, 38)  ;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.search-form:focus-within{
+    border-color:#3366cc;
+    box-shadow: inset 0 0 0 1px #3366cc;
+}
+.search-form input{
+    flex-grow: 1;
+    padding: 15px 15px;
+    border:none;
+    outline: none;
+    font-size:14px;
+}
+
+.search-form button{
+    padding:0px 15PX;
+    background-color: #f8f9fa;
+    border:none;
+    border-left: 1px solid black;
+    font-size:14px;
+    font-family: '', Times, 'Lucida Sans', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.search-form button:hover{
+    background-color: rgba(250, 244, 244, 0.279);
 }
 
 .header-kanan{
@@ -35,7 +124,7 @@ html{
 }
 .header-kanan a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     color: rgb(52, 216, 216);
 }
 .header-kanan a:hover{
@@ -48,7 +137,7 @@ background-size: 400% 400%;
 animation: gradientBG 6s ease infinite;
 padding: 5px;
 min-width: 104.7vh;
-height: 15vh ;
+height: 20vh ;
 border-bottom: 1px solid black;
 }
 @keyframes gradientBG {
@@ -60,10 +149,10 @@ border-bottom: 1px solid black;
 
 .li-Navigation-bar {
 list-style-type: none;
-padding: 10px ;
-margin: 10px;
+padding: 25px ;
+margin: 20px;
 color: white;
-font-size: 30px;
+font-size: 40px;
 font-family: "Bebas Neue", sans-serif;
 }
 
@@ -76,30 +165,27 @@ font-family: "Bebas Neue", sans-serif;
 .Isi {
     margin: 0;
     width:155.5%;
-    height: 70vh;
+    height: 60vh;
     
 }
 
-.container-img{
-    width: 100%;
-    height: 60vh;
-    position: relative;
-    overflow: hidden;
-}
-
-.container-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.container-img {
+min-height: 50vh;
+min-width: 90vh;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
 }
 
 .hero-text {
     position: absolute;
     top: 50%;
-    left: 80%;
+    left: 60%;
     transform: translate(-50%, -50%);
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 50px;
     text-align: center;
     animation: gradientTxt 8s ease-in-out;
 }
@@ -110,15 +196,14 @@ font-family: "Bebas Neue", sans-serif;
 }
 
 .container-foot{
-min-height: 15vh;
-min-width: 100%;
+min-height: 25vh;
+min-width: 105.8vh;
 background:linear-gradient(-45deg, #4a5b79, #2a5298, #4ca1af, #1e3c72);
 
 }
 
 .Isi-footer{
-font-size: 50px;
-
+font-size: 70px;
 color: whitesmoke ;
 display: flex;
 justify-content: center;
