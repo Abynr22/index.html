@@ -1,4 +1,8 @@
 /* ================= RESET ================= */
+
+
+/* ================= HEADER ================= */
+@media screen and ( max-width:768px){
 * {
     margin: 0;
     padding: 0;
@@ -10,9 +14,6 @@ html, body {
     height: auto;
     overflow-y: auto;
 }
-
-/* ================= HEADER ================= */
-@media screen and ( max-width:768px){
 
 .header-web{
     width: 100%;
