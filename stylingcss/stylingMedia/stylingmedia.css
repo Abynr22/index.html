@@ -28,6 +28,8 @@ html, body {
     position: sticky;
     top: 0;
     z-index: 100;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 @keyframes gradient1 {
@@ -130,6 +132,9 @@ html, body {
     gap: 1px ;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 @keyframes gradientBG {
@@ -142,7 +147,7 @@ html, body {
     list-style:none;
     display:flex;
     justify-content:space-around;
-    padding:20px 0;
+    padding:10px 0;
     margin:0;
 }
 
@@ -200,6 +205,62 @@ html, body {
 .Isi-footer{
     font-size:30px;
     color:white;
+}
+
+}
+
+@media screen and ( min-width:200px) and (max-width:600px){
+
+.header-web{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(-45deg, #3a6ed0, #86a3d5, #62c2d1, #274d94);
+    background-size:400% 400%;
+    animation: gradient1 6s ease infinite;
+    height: 10vh;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+
+.Navigation-bar-container{
+    width: 100%;
+    background: linear-gradient(-45deg, #1e3c72, #2a5298, #4ca1af, #1e3c72);
+    background-size:400% 400%;
+    animation: gradientBG 6s ease infinite;
+    border-bottom: 1px solid black;
+    display: flex;
+    height: 10vh;
+    gap: 1px ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+
+.Navigation-bar-container ul{
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+.Navigation-bar-container li{
+        flex: 0 0 auto; /* Mencegah menu menciut */
+        /* Pastikan tidak ada margin tambahan yang membuat jarak jauh */
+        margin: 0; 
+        text-align: center;
+        /* Kecilkan font sedikit jika perlu agar lebih banyak menu terlihat */
+        font-size: 12px;
 }
 
 }
