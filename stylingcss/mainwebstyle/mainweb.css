@@ -11,7 +11,7 @@ box-sizing: border-box;
 
 
 .Navigation-bar-container {
-background: linear-gradient(-45deg, #1e3c72, #2a5298, #4ca1af, #1e3c72);
+background: linear-gradient(-45deg, #944515, #bc5757, #a40c0c, #5f270e);
 background-size: 400% 400%;
 animation: gradientBG 6s ease infinite;
 padding: 5px;
