@@ -1,0 +1,58 @@
+
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+}
+
+
+/*================== Bagian media 768px ===================*/
+
+@media screen and (min-width: 200px) and (max-width: 600px){
+
+    .pesan-contact{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin:10px auto;
+    }
+
+    .Container-hubungi  {
+        height: 30vh;
+        width: 35vh;
+        padding: 20px;
+        border-radius: 7.5px;
+        margin-top: 40px;
+        border: 1px solid white; 
+        margin: 50px auto;
+        
+    }
+
+    .Isi-Hubungi-saya {
+    margin-right: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    
+   }
+
+.whatsapp {
+    height: 60%;
+    width: 53%;
+    margin: 17px auto;   
+}
+
+.gmaillogo {
+    height: 60%;
+    width: 75%;
+    margin: 17px auto;
+
+}
+
+}
